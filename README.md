@@ -78,7 +78,7 @@ webpack.mix.js
 
 # PostController.php
 - **Namespace**: `App\Http\Controllers`
-- **Purpose**: Controller for managing posts.
+- **Purpose**: Controller for managing posts.CRUD operational functions are stored in this file.
 - **Key Methods**:
    - `index()`: Retrieves and returns a list of all posts.
    - `store(StorePostRequest $request)`: Creates a new post with validated data.
